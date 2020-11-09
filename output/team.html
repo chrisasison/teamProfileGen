@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Team Generator</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <style>
+      #main-container {
+        margin: 0;
+        max-width: 100vw;
+      }
+
+      .card {
+        margin: 0 10px;
+        min-width: 17rem;
+        max-width: 17rem;
+      }
+
+      .jumbotron {
+        text-align: center;
+        background: rgb(121, 0, 0);
+        color: white;
+        border-bottom: 8px solid white;
+      }
+
+      body {
+        background-color: #e4e4e4;
+      }
+
+      .card-header {
+        background-color: rgb(121, 0, 0) !important;
+        border-bottom: none;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="jumbotron jumbotron-fluid">
+      <div class="container">
+        <h1 class="display-4" style="font-weight: bold">Meet the Team</h1>
+        <p class="lead" style="font-weight: bold">
+          View your team members' roles and contact information on the cards
+          below
+        </p>
+      </div>
+    </header>
+    <!-- Container that will hold the member cards -->
+    <section class="container container-fluid row" id="main-container">
+      <article class="col-10" style="margin: 0 auto">
+        <div class="row justify-content-center"></div>
+      </article>
+    </section>
+  </body>
+</html>
+<article class="card mb-3">
+  <div class="card-header text-white bg-dark">
+    <h2>chris</h2>
+    <h5><i class="fas fa-glasses" style="color: white"></i> Developer</h5>
+  </div>
+  <div class="card-body text-dark bg-light">
+    <ul class="list-group">
+      <li class="list-group-item" id="id">ID: 11344195</li>
+      <li class="list-group-item" id="email">Email: c.sison@wsu.edu</li>
+      <li class="list-group-item" id="github">Test</li>
+    </ul>
+  </div>
+</article>

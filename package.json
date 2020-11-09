@@ -1,0 +1,24 @@
+{
+  "name": "teamProfileGen",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chrisasison/teamProfileGen.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chrisasison/teamProfileGen/issues"
+  },
+  "homepage": "https://github.com/chrisasison/teamProfileGen#readme",
+  "dependencies": {
+    "inquirer": "^7.3.3",
+    "validator": "^13.1.17"
+  }
+}
