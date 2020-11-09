@@ -137,11 +137,7 @@ async function createHTML() {
     teamArray.forEach(member => {
         if(member.getRole() === "Developer") {
             createCard(member.getRole(),member.getName(),member.getId(),member.getEmail(),`GitHub Username: ${member.getGithub()}`);
-        }
-        else if(member.getRole() === "Intern") {
-            createCard(member.getRole(),member.getName(),member.getId(),member.getEmail(),`School: ${member.getSchool()}`);
-        }
-        else {
+        } else {
             createCard(member.getRole(),member.getName(),member.getId(),member.getEmail(),`Office Number: ${member.getOfficeNumber()}`);
         }
     });
